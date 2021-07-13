@@ -8,6 +8,18 @@ body {
   width: 100%;
 }
 
+.append-buttons.svelte-ofg3ju {
+  text-align: center;
+  margin-top: 20px;
+}
+
+main.svelte-1pru0wl {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: #eaeaea no-repeat center center fixed;
+}
+
 main.svelte-gypvp0 {
   height: 100%;
   width: 100%;
@@ -53,16 +65,32 @@ main.svelte-kwefzz {
   width: 100%;
 }
 
-.append-buttons.svelte-ofg3ju {
-  text-align: center;
-  margin-top: 20px;
+.img.svelte-1r1jbkn {
+  height: 50px;
+  width: 50px;
+  background: #333333;
+  border-radius: 10px;
 }
 
-main.svelte-1pru0wl {
+.img-selected.svelte-1r1jbkn {
+  background: #dddddd;
+}
+
+.header.svelte-1r1jbkn {
+  height: 150px;
+  max-height: 150px;
+}
+
+main.svelte-1r1jbkn {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: #eaeaea no-repeat center center fixed;
+  background: #000000 no-repeat center center fixed;
+}
+
+.swipeable-item-inner {
+  height: 100%;
+  max-height: 100%;
 }
 
 .square.svelte-8pu3ms {
@@ -76,34 +104,6 @@ main.svelte-1pru0wl {
   position: absolute;
   height: 100%;
   width: 100%;
-}
-
-.img.svelte-xezonb {
-  height: 100px;
-  width: 100px;
-  background: #333333;
-  border-radius: 10px;
-}
-
-.img-selected.svelte-xezonb {
-  background: #dddddd;
-}
-
-.header.svelte-xezonb {
-  height: 150px;
-  max-height: 150px;
-}
-
-main.svelte-xezonb {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  background: #000000 no-repeat center center fixed;
-}
-
-.swipeable-item-inner {
-  height: 100%;
-  max-height: 100%;
 }
 
 .swipeable-item.svelte-1ks2opm {
