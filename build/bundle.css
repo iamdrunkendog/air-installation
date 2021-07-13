@@ -98,19 +98,6 @@ main.svelte-kwefzz {
   visibility: hidden;
 }
 
-.square.svelte-8pu3ms {
-  width: 100%;
-  height: 100%;
-  padding-bottom: 100%;
-  position: relative;
-}
-
-.content.svelte-8pu3ms {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
 .img.svelte-1f08pnx {
   height: 40px;
   width: 40px;
@@ -139,13 +126,17 @@ main.svelte-1f08pnx {
   max-height: 100%;
 }
 
-.swipeable-item.svelte-1ks2opm {
+.square.svelte-8pu3ms {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.content.svelte-8pu3ms {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transition-timing-function: ease-out;
+  height: 100%;
+  width: 100%;
 }
 
 .swipe-panel.svelte-j4f7n2.svelte-j4f7n2 {
@@ -201,4 +192,13 @@ main.svelte-1f08pnx {
 
 .swipe-indicator.svelte-j4f7n2 .is-active.svelte-j4f7n2 {
   background-color: var(--sv-swipe-indicator-active-color, grey);
+}
+
+.swipeable-item.svelte-1ks2opm {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition-timing-function: ease-out;
 }
